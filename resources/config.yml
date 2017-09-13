@@ -6,9 +6,6 @@
 #  \__/\__,_|_|\__,_|___/#
 ##########################
 
-# Max amount of warns before punishment
-max-warns: 3
-
 #######################################################
 #Enabled punishment : - Ban                           #
 #                     - IPBan                         #
@@ -18,8 +15,14 @@ max-warns: 3
 punishment: Command
 
 #Enabled after you use Command in the line above
-punishment-command:
+punishment-command1:
   - "nban %PLAYER% 1week You are banned for %REASON% by %SENDER%"
+
+punishment-command2:
+  - "nban %PLAYER% 1month You are banned for %REASON% by %SENDER%"
+
+punishment-command3:
+  - "nban %PLAYER% 1year You are banned for %REASON% by %SENDER%"
 
 ##########################################################
 #  _____                                           _     #

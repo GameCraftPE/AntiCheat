@@ -14,7 +14,7 @@ use pocketmine\network\mcpe\protocol\types\ContainerIds;
 class VanishCommand extends Command{
 
   /** @var array */
-  public $spectator = array();
+  public $spectator = array(); //todo add this to the main
 
   public function __construct(){
     parent::__construct("vanish", "spectating command for moderators");
